@@ -4,3 +4,177 @@ librosa==0.8.0
 omegaconf==2.0.6
 pytorch_lightning==1.1.6
 matplotlib
+
+
+
+# packages in environment at /opt/conda:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             4.5                       1_gnu  
+absl-py                   1.0.0                    pypi_0    pypi
+aiohttp                   3.8.1                    pypi_0    pypi
+aiosignal                 1.2.0                    pypi_0    pypi
+appdirs                   1.4.4                    pypi_0    pypi
+asttokens                 2.0.5                    pypi_0    pypi
+async-timeout             4.0.2                    pypi_0    pypi
+attrs                     21.4.0                   pypi_0    pypi
+audioread                 2.1.9                    pypi_0    pypi
+bash-kernel               0.7.2                    pypi_0    pypi
+beautifulsoup4            4.11.1           py38h06a4308_0  
+blas                      1.0                         mkl  
+bleach                    5.0.0                    pypi_0    pypi
+brotlipy                  0.7.0           py38h27cfd23_1003  
+bzip2                     1.0.8                h7b6447c_0  
+ca-certificates           2022.3.29            h06a4308_1  
+cachetools                5.0.0                    pypi_0    pypi
+certifi                   2021.10.8        py38h06a4308_2  
+cffi                      1.15.0           py38hd667e15_1  
+chardet                   4.0.0           py38h06a4308_1003  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+conda                     4.12.0           py38h06a4308_0  
+conda-build               3.21.7           py38h06a4308_0  
+conda-package-handling    1.8.1            py38h7f8727e_0  
+cryptography              36.0.0           py38h9ce1e76_0  
+cudatoolkit               11.0.221             h6bb024c_0    anaconda
+cycler                    0.11.0                   pypi_0    pypi
+dataclasses               0.6                      pypi_0    pypi
+debugpy                   1.6.0                    pypi_0    pypi
+defusedxml                0.7.1                    pypi_0    pypi
+dnspython                 2.2.1                    pypi_0    pypi
+entrypoints               0.4                      pypi_0    pypi
+executing                 0.8.3                    pypi_0    pypi
+fastjsonschema            2.15.3                   pypi_0    pypi
+ffmpeg                    1.4                      pypi_0    pypi
+filelock                  3.6.0              pyhd3eb1b0_0  
+fonttools                 4.33.2                   pypi_0    pypi
+frozenlist                1.3.0                    pypi_0    pypi
+fsspec                    2022.3.0                 pypi_0    pypi
+future                    0.18.2                   pypi_0    pypi
+glob2                     0.7                pyhd3eb1b0_0  
+google-auth               2.6.6                    pypi_0    pypi
+google-auth-oauthlib      0.4.6                    pypi_0    pypi
+grpcio                    1.44.0                   pypi_0    pypi
+icu                       58.2                 he6710b0_3  
+idna                      3.3                pyhd3eb1b0_0  
+importlib-metadata        4.11.3                   pypi_0    pypi
+importlib-resources       5.7.1                    pypi_0    pypi
+intel-openmp              2021.4.0          h06a4308_3561  
+ipykernel                 6.10.0                   pypi_0    pypi
+ipython                   8.2.0                    pypi_0    pypi
+ipython-genutils          0.2.0                    pypi_0    pypi
+ipywidgets                7.7.0                    pypi_0    pypi
+jinja2                    3.1.1                    pypi_0    pypi
+joblib                    1.1.0                    pypi_0    pypi
+json5                     0.9.6                    pypi_0    pypi
+jsonschema                4.4.0                    pypi_0    pypi
+jupyter                   1.0.0                    pypi_0    pypi
+jupyter-client            7.2.0                    pypi_0    pypi
+jupyter-console           6.4.3                    pypi_0    pypi
+jupyter-core              4.10.0                   pypi_0    pypi
+jupyterlab                2.3.2                    pypi_0    pypi
+jupyterlab-pygments       0.2.2                    pypi_0    pypi
+jupyterlab-server         1.2.0                    pypi_0    pypi
+jupyterlab-widgets        1.1.0                    pypi_0    pypi
+kiwisolver                1.4.2                    pypi_0    pypi
+ld_impl_linux-64          2.35.1               h7274673_9  
+libarchive                3.4.2                h62408e4_0  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 9.3.0               h5101ec6_17  
+libgomp                   9.3.0               h5101ec6_17  
+liblief                   0.11.5               h295c915_1  
+librosa                   0.8.0                    pypi_0    pypi
+libstdcxx-ng              9.3.0               hd4cf53a_17  
+libxml2                   2.9.12               h03d6c58_0  
+llvmlite                  0.38.0                   pypi_0    pypi
+lz4-c                     1.9.3                h295c915_1  
+markdown                  3.3.6                    pypi_0    pypi
+markupsafe                2.0.1            py38h27cfd23_0  
+matplotlib                3.5.1                    pypi_0    pypi
+mistune                   0.8.4                    pypi_0    pypi
+mkl                       2021.4.0           h06a4308_640  
+mkl-service               2.4.0            py38h7f8727e_0  
+mkl_fft                   1.3.1            py38hd3c417c_0  
+mkl_random                1.2.2            py38h51133e4_0  
+multidict                 6.0.2                    pypi_0    pypi
+nbclient                  0.6.0                    pypi_0    pypi
+nbconvert                 6.5.0                    pypi_0    pypi
+nbformat                  5.3.0                    pypi_0    pypi
+ncurses                   6.3                  h7f8727e_2  
+nest-asyncio              1.5.5                    pypi_0    pypi
+notebook                  5.7.5                    pypi_0    pypi
+numba                     0.55.1                   pypi_0    pypi
+numpy                     1.21.2           py38h20f2e39_0  
+numpy-base                1.21.2           py38h79a1101_0  
+oauthlib                  3.2.0                    pypi_0    pypi
+omegaconf                 2.0.6                    pypi_0    pypi
+openssl                   1.1.1n               h7f8727e_0  
+packaging                 21.3                     pypi_0    pypi
+pandocfilters             1.5.0                    pypi_0    pypi
+patchelf                  0.13                 h295c915_0  
+pip                       21.2.4           py38h06a4308_0  
+pkginfo                   1.8.2              pyhd3eb1b0_0  
+pooch                     1.6.0                    pypi_0    pypi
+prefetch-generator        1.0.1                    pypi_0    pypi
+prometheus-client         0.14.1                   pypi_0    pypi
+protobuf                  3.20.1                   pypi_0    pypi
+psutil                    5.8.0            py38h27cfd23_1  
+pure-eval                 0.2.2                    pypi_0    pypi
+py-lief                   0.11.5           py38h295c915_1  
+pyasn1                    0.4.8                    pypi_0    pypi
+pyasn1-modules            0.2.8                    pypi_0    pypi
+pycosat                   0.6.3            py38h7b6447c_1  
+pycparser                 2.21               pyhd3eb1b0_0  
+pydeprecate               0.3.0                    pypi_0    pypi
+pyopenssl                 22.0.0             pyhd3eb1b0_0  
+pyparsing                 3.0.8                    pypi_0    pypi
+pyrsistent                0.18.1                   pypi_0    pypi
+pysocks                   1.7.1            py38h06a4308_0  
+python                    3.8.12               h12debd9_0  
+python-dateutil           2.8.2                    pypi_0    pypi
+python-etcd               0.4.5                    pypi_0    pypi
+python-libarchive-c       2.9                pyhd3eb1b0_1  
+pytorch-lightning         1.1.6                    pypi_0    pypi
+pytz                      2021.3             pyhd3eb1b0_0  
+pyyaml                    6.0                      pypi_0    pypi
+pyzmq                     22.3.0                   pypi_0    pypi
+qtconsole                 5.3.0                    pypi_0    pypi
+qtpy                      2.0.1                    pypi_0    pypi
+readline                  8.1.2                h7f8727e_1  
+requests                  2.27.1             pyhd3eb1b0_0  
+requests-oauthlib         1.3.1                    pypi_0    pypi
+resampy                   0.2.2                    pypi_0    pypi
+ripgrep                   12.1.1                        0  
+rsa                       4.8                      pypi_0    pypi
+ruamel_yaml               0.15.100         py38h27cfd23_0  
+scikit-learn              1.0.2                    pypi_0    pypi
+scipy                     1.8.0                    pypi_0    pypi
+send2trash                1.8.0                    pypi_0    pypi
+setuptools                61.2.0           py38h06a4308_0  
+six                       1.16.0             pyhd3eb1b0_1  
+soundfile                 0.10.3.post1             pypi_0    pypi
+soupsieve                 2.3.1              pyhd3eb1b0_0  
+sqlite                    3.38.2               hc218d9a_0  
+stack-data                0.2.0                    pypi_0    pypi
+tensorboard               2.8.0                    pypi_0    pypi
+tensorboard-data-server   0.6.1                    pypi_0    pypi
+tensorboard-plugin-wit    1.8.1                    pypi_0    pypi
+terminado                 0.13.3                   pypi_0    pypi
+threadpoolctl             3.1.0                    pypi_0    pypi
+tinycss2                  1.1.1                    pypi_0    pypi
+tk                        8.6.11               h1ccaba5_0  
+torchelastic              0.2.2                    pypi_0    pypi
+torchmetrics              0.6.0                    pypi_0    pypi
+tornado                   5.1.1                    pypi_0    pypi
+tqdm                      4.64.0           py38h06a4308_0  
+urllib3                   1.26.9           py38h06a4308_0  
+webencodings              0.5.1                    pypi_0    pypi
+werkzeug                  2.1.1                    pypi_0    pypi
+wheel                     0.37.1             pyhd3eb1b0_0  
+widgetsnbextension        3.6.0                    pypi_0    pypi
+xz                        5.2.5                h7b6447c_0  
+yaml                      0.2.5                h7b6447c_0  
+yarl                      1.7.2                    pypi_0    pypi
+zipp                      3.8.0                    pypi_0    pypi
+zlib                      1.2.12               h7f8727e_2  
+zstd                      1.4.9                haebb681_0  
