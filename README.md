@@ -132,6 +132,10 @@ The audio samples on our [webpage](https://mindslab-ai.github.io/nuwave/) are pa
    └─ ...
 ```
 
+## Notes
+* Remove the torchtext module to get rid of the batch error. 
+
+
 ## Citation & Contact
 If this repository useful for your research, please consider citing!
 ```bib
