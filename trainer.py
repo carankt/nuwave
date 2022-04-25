@@ -14,7 +14,7 @@ from utils.tblogger import TensorBoardLoggerExpanded
 
 # Other DDPM/Score-based model applied EMA
 # In our works, there are no significant difference
-class EMACallback(Callback): 
+class EMACallback(Callback):
     # exponential moving average
     def __init__(self, filepath, alpha=0.999, k=3):
         super().__init__()
@@ -68,14 +68,14 @@ def train(args):
     model = NuWave(hparams)
     tblogger = TensorBoardLoggerExpanded(hparams)
     ckpt_path = f'{hparams.log.name}_{now}_{{epoch}}'
-    checkpoint_callback = ModelCheckpoint(filepath=os.path.join(
+    checkpoint_callback = ModelCheckpoint(dirpath=os.path.join(
         hparams.log.checkpoint_dir, ckpt_path),
                                           verbose=True,
                                           save_last=True,
                                           save_top_k=3,
                                           monitor='val_loss',
                                           mode='min',
-                                          prefix='')
+                                          )
 
     if args.restart:
         ckpt = torch.load(glob(
@@ -114,7 +114,6 @@ def train(args):
         gradient_clip_val = 0.5,
         max_epochs=200000,
         logger=tblogger,
-        progress_bar_refresh_rate=4,
         callbacks=[
             EMACallback(os.path.join(hparams.log.checkpoint_dir, 
                         f'{hparams.name}_epoch={{epoch}}_EMA'))
